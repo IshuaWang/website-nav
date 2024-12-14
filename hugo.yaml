@@ -1,0 +1,16 @@
+baseURL: "https://blog.wangyx.com/navs/"
+languageCode: "zh-CN"
+title: "网址导航"
+theme: "webstack-hugo"
+preserveTaxonomyNames: true
+disablePathToLower: true
+hasCJKLanguage: true
+copyright: ""
+
+params:
+  author: "wangyx"
+  description: "website nav"
+  search:
+    enable: true
+  darkmode:
+    enable: true

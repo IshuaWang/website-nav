@@ -19,7 +19,7 @@ jobs:
           hugo-version: '0.122.0'
           extended: true
       - name: Build
-        run: hugo --themesDir themes/hugo-nav --baseURL https://blog.wangyx.com/navs/
+        run: hugo --themesDir themes --baseURL https://blog.wangyx.com/navs/
       - name: Deploy to Halo
         run: |
           npx halo-static-pages-deploy-cli deploy -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ID }} -t ${{ secrets.PAT }} -f public

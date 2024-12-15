@@ -1,7 +1,7 @@
 baseURL               = "https://blog.wangyx.com/navs/"
 languageCode          = "zh-CN"
 title                 = "网址导航"
-theme                 = "WebStack-Hugo"
+theme                 = "hugo-nav"
 preserveTaxonomyNames = true
 disablePathToLower    = true
 hasCJKLanguage        = true

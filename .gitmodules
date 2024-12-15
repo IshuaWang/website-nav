@@ -1,0 +1,3 @@
+[submodule "themes/hugo-nav"]
+	path = themes/hugo-nav
+	url = https://github.com/IshuaWang/hugo-nav
